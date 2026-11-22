@@ -1,0 +1,10 @@
+# Runtime dependencies for the Streamlit app (this is what the Cloud Run image installs).
+# Version ranges, not exact pins: pin exact versions with `pip freeze` once your environment works.
+streamlit>=1.40,<2
+plotly>=5.24,<7
+folium>=0.17,<1
+pandas>=2.2,<4
+numpy>=1.26
+requests>=2.32,<3
+tzdata>=2024.1
+google-cloud-aiplatform>=1.70,<2
